@@ -6,4 +6,5 @@
 ```scala
 wartremoverClasspaths += "file://" + baseDirectory.value + "/../lib/cs320warts_2.13-1.0.0.jar",
 wartremoverErrors += Wart.custom("cs320warts.MutableDataStructures")
+wartremoverErrors += Wart.custom("cs320warts.TryCatch")
 ```
